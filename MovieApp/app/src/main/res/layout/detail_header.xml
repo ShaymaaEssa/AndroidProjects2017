@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_detailfragment_moviename"
+        tools:text="@string/text_for_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:paddingBottom="@dimen/dimen_20"
+        android:paddingLeft="@dimen/dimen_20"
+        android:paddingTop="@dimen/dimen_50"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_size_25"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_detailfragment_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_detailfragment_moviename"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_10"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageview_detailfragment_movieposter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/postimg_error" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen_20"
+            android:paddingTop="@dimen/dimen_50">
+
+            <TextView
+                android:id="@+id/tv_detailfragment_releasedate"
+                tools:text="@string/year_for_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_detailfragment_duration"
+                tools:text="@string/time_for_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_detailfragment_rate"
+                tools:text="@string/rate_for_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/btn_detailfragment_fav_unfav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:src="@drawable/fav"
+                    android:backgroundTint="#ffffff"
+                    />
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_detailfragment_fav"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/unfav" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_detailfragment_unfav"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/fav"-->
+                    <!--android:visibility="invisible" />-->
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout_detailfragment_1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_detailfragment_review"
+            tools:text="@string/text_for_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_10"
+            android:textSize="@dimen/txt_size_13" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_detailfragment_review"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="#dadada" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

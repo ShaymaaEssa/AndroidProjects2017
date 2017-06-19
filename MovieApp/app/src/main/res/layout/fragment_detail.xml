@@ -1,0 +1,55 @@
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context="com.example.android.movieapp.DetailFragment">-->
+
+
+<!--&lt;!&ndash;<RelativeLayout&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="match_parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<TextView&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/tv_detailfragment_moviename"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:background="@color/pink"&ndash;&gt;--><!--&lt;!&ndash;android:paddingBottom="@dimen/dimen_20"&ndash;&gt;--><!--&lt;!&ndash;android:paddingLeft="@dimen/dimen_20"&ndash;&gt;--><!--&lt;!&ndash;android:paddingTop="@dimen/dimen_50"&ndash;&gt;--><!--&lt;!&ndash;android:textColor="@color/black"&ndash;&gt;--><!--&lt;!&ndash;android:textSize="@dimen/txt_size_25"&ndash;&gt;--><!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;--><!--&lt;!&ndash;tools:text="Name test" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;<LinearLayout&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/linearlayout_detailfragment_1"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_below="@+id/tv_detailfragment_moviename"&ndash;&gt;--><!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;--><!--&lt;!&ndash;android:paddingLeft="@dimen/dimen_10"&ndash;&gt;--><!--&lt;!&ndash;android:weightSum="2">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<ImageView&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/imageview_detailfragment_movieposter"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:scaleType="fitXY"&ndash;&gt;--><!--&lt;!&ndash;android:src="@drawable/postimg_error" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;<LinearLayout&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;--><!--&lt;!&ndash;android:paddingLeft="@dimen/dimen_20"&ndash;&gt;--><!--&lt;!&ndash;android:paddingTop="@dimen/dimen_50">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<TextView&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/tv_detailfragment_releasedate"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:textColor="@color/black"&ndash;&gt;--><!--&lt;!&ndash;android:textSize="@dimen/txt_size_15"&ndash;&gt;--><!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;--><!--&lt;!&ndash;tools:text="2015" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;<TextView&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/tv_detailfragment_duration"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:textColor="@color/black"&ndash;&gt;--><!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;--><!--&lt;!&ndash;tools:text="120 min" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;<TextView&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/tv_detailfragment_rate"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:textColor="@color/black"&ndash;&gt;--><!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;--><!--&lt;!&ndash;tools:text="8.1 /10 " />&ndash;&gt;-->
+
+<!--&lt;!&ndash;<RelativeLayout&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;--><!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="50dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;--><!--&lt;!&ndash;android:background="@drawable/unfav"&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/btn_detailfragment_fav"/>&ndash;&gt;--><!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="50dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;--><!--&lt;!&ndash;android:background="@drawable/fav"&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/btn_detailfragment_unfav"&ndash;&gt;--><!--&lt;!&ndash;android:visibility="invisible"/>&ndash;&gt;--><!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<LinearLayout&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_below="@+id/linearlayout_detailfragment_1"&ndash;&gt;--><!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<TextView&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/tv_detailfragment_review"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+
+<!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:paddingLeft="@dimen/dimen_10"&ndash;&gt;--><!--&lt;!&ndash;android:textSize="@dimen/txt_size_13"&ndash;&gt;--><!--&lt;!&ndash;tools:text="test testtesttesttesttesttesttesttest " />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;<View&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_below="@+id/tv_detailfragment_review"&ndash;&gt;--><!--&lt;!&ndash;android:layout_marginTop="@dimen/dimen_10"&ndash;&gt;--><!--&lt;!&ndash;android:background="#dadada" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;--><!--</ScrollView>-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.movieapp.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_detailfragment_moviedetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

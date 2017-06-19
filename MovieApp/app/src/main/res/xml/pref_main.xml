@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/listpref_prefmain_sortby"
+        android:key="@string/listpref_prefmain_sortlistkey"
+        android:defaultValue="@string/pref_sortlist_defaultvalue"
+        android:entries="@array/list_sort"
+        android:entryValues="@array/list_sort_value"
+        />
+</PreferenceScreen>

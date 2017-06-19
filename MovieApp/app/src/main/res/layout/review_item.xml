@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_reviewitem_author"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        tools:text="By Test Test:"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_reviewitem_content"
+        android:textSize="12sp"
+        tools:text="test testtesttesttesttesttesttesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest"
+        android:padding="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+</LinearLayout>

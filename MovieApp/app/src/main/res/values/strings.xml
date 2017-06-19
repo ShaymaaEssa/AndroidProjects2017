@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_url" translatable="false">http://image.tmdb.org/t/p/w185/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_detailfragment_fav">Fav</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Setting Preference Activity menu -->
+    <string name="listpref_prefmain_sortby">Sort by</string>
+    <string name="listpref_prefmain_sortlistkey" translatable="false">sortlistkey</string>
+    <string name="pref_sortlist_defaultvalue">popular</string>
+    <string-array name="list_sort">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Favorites</item>
+    </string-array>
+    <string-array name="list_sort_value" >
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>favorites</item>
+    </string-array>
+
+    <string name="action_setting">Setting</string>
+    <string name="text_for_test" translatable="false">Test Text</string>
+    <string name="year_for_test" translatable="false">2016</string>
+    <string name="time_for_test" translatable="false">120 min</string>
+    <string name="rate_for_test" translatable="false">8.1 / 10</string>
+</resources>
